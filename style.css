@@ -51,7 +51,7 @@ header {
 
 h1 {
   font-size: 90px;
-  color: rgb(224,126,51);
+  color: rgb(239, 252, 101);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   line-height: 2px;
   /* font-family: "Ginto", sans-serif; */
@@ -150,7 +150,7 @@ h2 {
 }
 
 footer {
-  color: rgb(0,64,101);
+  color: rgb(239, 252, 101);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   font-family: "flower";
   font-size: 20px;

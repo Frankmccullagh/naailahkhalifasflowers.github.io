@@ -43,15 +43,15 @@ canvas {
 
 header {
   position: fixed;
-  top: 50px;
+  top: 80px;
   left: 50%;
   transform: translate(-50%, -50%);
 
 }
 
 h1 {
-  font-size: 28vw;
-  color: rgb(20,100,10);
+  font-size: 25vw;
+  color: rgb(224,126,51);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   line-height: 2px;
   /* font-family: "Ginto", sans-serif; */
@@ -80,7 +80,7 @@ height: 100px;
 input.one {
       font-family: "flower";
       background: none;
-      color: red;
+      color: rgb(221, 45, 102);
       text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
       border: none;
       position: fixed;
@@ -100,7 +100,7 @@ input.one {
 input.two {
       font-family: "flower";
       background: none;
-      color: red;
+      color: rgb(221, 45, 102);
       text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
       border: none;
       position: fixed;
@@ -150,7 +150,7 @@ h2 {
 }
 
 footer {
-  color: rgb(250,100,10);
+  color: rgb(0,64,101);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   font-family: "flower";
   font-size: 20px;

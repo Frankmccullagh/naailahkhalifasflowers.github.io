@@ -43,14 +43,14 @@ canvas {
 
 header {
   position: fixed;
-  top: 15%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 
 }
 
 h1 {
-  font-size: 16vw;
+  font-size: 15vw;
   color: rgb(224,126,51);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   line-height: 2px;

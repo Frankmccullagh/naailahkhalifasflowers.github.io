@@ -43,14 +43,14 @@ canvas {
 
 header {
   position: fixed;
-  top: 10%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
 
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 90px;
   color: rgb(224,126,51);
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   line-height: 2px;
@@ -80,7 +80,7 @@ height: 100px;
 input.one {
       font-family: "flower";
       background: none;
-      color: rgb(221, 45, 102);
+      color: rgb(239, 252, 101);
       text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
       border: none;
       position: fixed;
@@ -100,7 +100,7 @@ input.one {
 input.two {
       font-family: "flower";
       background: none;
-      color: rgb(221, 45, 102);
+      color: rgb(239, 252, 101);
       text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
       border: none;
       position: fixed;
@@ -120,7 +120,7 @@ input.two {
 input.three {
       font-family: "flower";
       background: none;
-      color: rgb(221, 45, 102);
+      color: rgb(239, 252, 101);
       text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
       border: none;
       position: fixed;

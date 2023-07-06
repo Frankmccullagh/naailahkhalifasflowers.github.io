@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Ginto Variable";
+  /* src: url("ABCGintoNordVariable-Trial.woff2") format("woff2-variations"), */
+       /* url("ABCGintoNordVariable-Trial.woff") format("woff-variations"), */
+    src:   url("Naailah_Khalifa_Variable-Regular.ttf") format("truetype-variations");
+       /* font-weight: 300 700; */
+}
+
+@keyframes ginto-animation {
+  from {
+    font-variation-settings: "ital" 0;
+  }
+  to {
+    font-variation-settings: "ital" 400;
+  }
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: Naailah;
+  src: url(Naailah_Khalifa_Variable-Regular.ttf);
+}
+@font-face {
+  font-family: flower;
+  src: url(VanDijMTIta-Italics-Regular.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+header {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+h1 {
+  font-size: 28vw;
+  color: rgb(250,100,10);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  line-height: 2px;
+  /* font-family: "Ginto", sans-serif; */
+  /* font-stretch: 60%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Ginto Variable";
+ transition: font-variation-settings 5s ease;
+ animation-name: ginto-animation;
+ animation-duration: 2s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in-out;
+}
+
+/* .term {
+background-color: rgba(0,0,0,0.8);
+color: #5fba3d;
+width: 200px;
+height: 100px;
+} */
+
+input.one {
+      font-family: "flower";
+      background: none;
+      color: red;
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 520px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+      /* width: 200px; */
+}
+
+input.two {
+      font-family: "flower";
+      background: none;
+      color: red;
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 590px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+      /* width: 200px; */
+}
+
+input.three {
+      font-family: "flower";
+      background: none;
+      color: red;
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 660px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+      /* width: 200px; */
+}
+
+section {
+margin-top: 250px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer {
+  color: rgb(250,100,10);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  font-family: "flower";
+  font-size: 20px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+  line-height: 1px;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

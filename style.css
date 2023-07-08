@@ -8,10 +8,10 @@
 
 @keyframes ginto-animation {
   from {
-    font-variation-settings: "ital" 0;
+    font-variation-settings: "wght" 0, "ital" 0, "NORD" 100;
   }
   to {
-    font-variation-settings: "ital" 400;
+    font-variation-settings: "wght" 200, "ital" 100, "NORD" 200;
   }
 }
 

@@ -24,14 +24,6 @@ canvas {
   display: block;
 }
 
-@font-face {
-  font-family: Naailah;
-  src: url(Naailah_Khalifa_Variable-Regular.ttf);
-}
-@font-face {
-  font-family: flower;
-  src: url(VanDijMTIta-Italics-Regular.otf);
-}
 
 html, body {
   margin: 0;

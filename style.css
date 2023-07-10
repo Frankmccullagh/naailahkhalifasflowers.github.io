@@ -2,7 +2,7 @@
   font-family: "Ginto Variable";
   /* src: url("ABCGintoNordVariable-Trial.woff2") format("woff2-variations"), */
        /* url("ABCGintoNordVariable-Trial.woff") format("woff-variations"), */
-    src:   url("Naailah_Khalifa_Variable-Regular.ttf") format("truetype-variations");
+    src:   url("Naailah_Khalifa_Variable2-Regular.ttf") format("truetype-variations");
        /* font-weight: 300 700; */
 }
 
@@ -62,12 +62,12 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   font-family: "Ginto Variable";
- transition: font-variation-settings 0.5s ease;
+ transition: font-variation-settings 20s ease;
  animation-name: ginto-animation;
- animation-duration: 6s;
+ animation-duration: 1.5s;
  animation-direction: alternate;
  animation-iteration-count: infinite;
- animation-timing-function: ease-in-out;
+ animation-timing-function: cubic-bezier(50);
 }
 
 /* .term {

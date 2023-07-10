@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Ginto Variable";
-  src: url("Naailah_Khalifa_Variable2-Regular.woff2") format("woff2-variations"),
-       url("Naailah_Khalifa_Variable2-Regular.woff") format("woff-variations");
+  /* src: url("Naailah_Khalifa_Variable2-Regular.woff2") format("woff2-variations"), */
+    src:   url("Naailah_Khalifa_Variable2-Regular.woff") format("woff-variations");
     /* url("Naailah_Khalifa_Variable-Regular.ttf") format("truetype-variations"); */
        /* font-weight: 300 700; */
 }

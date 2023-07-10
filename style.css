@@ -11,14 +11,14 @@
   src: url(VanDijMTIta-Italics-Regular.otf);
 }
 
-@keyframes ginto-animation {
+/* @keyframes ginto-animation {
   from {
     font-variation-settings: "wght" 0;
   }
   to {
     font-variation-settings: "wght" 400;
   }
-}
+} */
 
 
 html, body {

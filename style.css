@@ -51,7 +51,7 @@ header {
 
 h1 {
   font-size: 90px;
-  color: rgb(239, 252, 101);
+  /* color: rgb(239, 252, 101); */
   /* text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3); */
   line-height: 2px;
   /* font-family: "Ginto", sans-serif; */
@@ -67,7 +67,7 @@ h1 {
  animation-duration: 1.5s;
  animation-direction: alternate;
  animation-iteration-count: infinite;
- animation-timing-function: cubic-bezier(50);
+ animation-timing-function: cubic-bezier();
 }
 
 /* .term {

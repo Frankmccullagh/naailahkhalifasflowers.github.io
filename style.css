@@ -1,17 +1,22 @@
 @font-face {
   font-family: "Ginto Variable";
-  src: url("Naailah_Khalifa_Variable2-Regular.woff2") format("woff2-variations");
-       /* url("Naailah_Khalifa_Variable2-Regular.woff") format("woff-variations") */
-    /* url("Naailah_Khalifa_Variable-Regular.ttf") format("truetype-variations"); */
+  /* src: url("Naailah_Khalifa_Variable2-Regular.woff2") format("woff2-variations"), */
+      /* url("Naailah_Khalifa_Variable2-Regular.woff") format("woff-variations"), */
+    src:  url("ABCGintoNordVariable-Trial.ttf") format("truetype-variations");
        /* font-weight: 300 700; */
+}
+
+@font-face {
+  font-family: flower;
+  src: url(VanDijMTIta-Italics-Regular.otf);
 }
 
 @keyframes ginto-animation {
   from {
-    font-variation-settings: "ital" 0;
+    font-variation-settings: "wght" 100;
   }
   to {
-    font-variation-settings: "ital" 400;
+    font-variation-settings: "wght" 900;
   }
 }
 
@@ -23,6 +28,7 @@ html, body {
 canvas {
   display: block;
 }
+
 
 
 html, body {
@@ -42,9 +48,9 @@ header {
 }
 
 h1 {
-  font-size: 90px;
-  /* color: rgb(239, 252, 101); */
-  /* text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);  */
+  font-size: 70px;
+  color: rgb(239, 252, 101);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   line-height: 2px;
   /* font-family: "Ginto", sans-serif; */
   /* font-stretch: 60%; */

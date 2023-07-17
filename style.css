@@ -6,23 +6,19 @@
        /* font-weight: 300 700; */
 }
 
-@keyframes ginto-animation {
+/* @keyframes ginto-animation {
   from {
     font-variation-settings: "ital" 0;
   }
   to {
     font-variation-settings: "ital" 400;
   }
-}
+} */
 
 
 h1 {
   font-size: 28vw;
-  color: rgb(239,22,101);
-  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
-  line-height: 2px;
-  /* font-family: "Ginto", sans-serif; */
-  /* font-stretch: 60%; */
+  font-family: "Ginto Variable";
   position: fixed;
   top: 250px;
   left: 50%;
@@ -32,11 +28,16 @@ h1 {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  font-family: "Ginto Variable";
- transition: font-variation-settings 5s ease;
+  /* color: rgb(239,22,101);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  line-height: 2px; */
+  /* font-family: "Ginto", sans-serif; */
+  /* font-stretch: 60%; */
+
+ /* transition: font-variation-settings 5s ease;
  animation-name: ginto-animation;
  animation-duration: 2s;
  animation-direction: alternate;
  animation-iteration-count: infinite;
- animation-timing-function: ease-in-out;
+ animation-timing-function: ease-in-out; */ */
 }

@@ -1,19 +1,19 @@
 @font-face {
   font-family: "Ginto Variable";
-  src: url("Naailah_Khalifa_Variable-Regular.woff2") format("woff2-variations");
+  src: url("Tester-Regular.ttf");
     /* src:   url("Naailah_Khalifa_Variable-Regular.woff") format("woff-variations") */
        /* url("Naailah_Khalifa_Variable-Regular.ttf") format("ttf-variations"); */
        /* font-weight: 300 700; */
 }
 
-/* @keyframes ginto-animation {
+@keyframes ginto-animation {
   from {
     font-variation-settings: "ital" 0;
   }
   to {
     font-variation-settings: "ital" 400;
   }
-} */
+}
 
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
   position: fixed;
   top: 150px;
   left: 10%;
-  color: blue;
+  color: red;
   /* transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
@@ -35,10 +35,10 @@ h1 {
   /* font-family: "Ginto", sans-serif; */
   /* font-stretch: 60%; */
 
- /* transition: font-variation-settings 5s ease;
+ transition: font-variation-settings 5s ease;
  animation-name: ginto-animation;
  animation-duration: 2s;
  animation-direction: alternate;
  animation-iteration-count: infinite;
- animation-timing-function: ease-in-out; */ */
+ animation-timing-function: ease-in-out;
 }

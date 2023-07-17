@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Ginto Variable";
-  /* src: url("Naailah_Khalifa_Variable-Regular.woff2") format("woff2-variations"); */
-    src:   url("Naailah_Khalifa_Variable-Regular.woff") format("woff-variations");
+  src: url("Naailah_Khalifa_Variable-Regular.woff2") format("woff2-variations");
+    /* src:   url("Naailah_Khalifa_Variable-Regular.woff") format("woff-variations") */
        /* url("Naailah_Khalifa_Variable-Regular.ttf") format("ttf-variations"); */
        /* font-weight: 300 700; */
 }
@@ -22,7 +22,7 @@ h1 {
   position: fixed;
   top: 150px;
   left: 10%;
-  color: red;
+  color: blue;
   /* transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;

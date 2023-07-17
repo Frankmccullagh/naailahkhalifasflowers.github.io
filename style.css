@@ -35,10 +35,10 @@ h1 {
   /* font-family: "Ginto", sans-serif; */
   /* font-stretch: 60%; */
 
- transition: font-variation-settings 5s ease;
+ /* transition: font-variation-settings 5s ease;
  animation-name: ginto-animation;
  animation-duration: 2s;
  animation-direction: alternate;
  animation-iteration-count: infinite;
- animation-timing-function: ease-in-out;
+ animation-timing-function: ease-in-out; */
 }

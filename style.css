@@ -42,15 +42,15 @@ h1 .char {
 @keyframes breathe {
 	0% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 20vw;
+		font-size: 350px;
 	}
 	60% {
 		font-variation-settings: 'wght' 0, 'wdth' 400;
-		font-size: 20vw;
+		font-size: 350px;
 	}
 
 	100% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 20vw;
+		font-size: 350px;
 	}
 }

@@ -24,8 +24,8 @@ body {
 
 h1 {
 	font-weight: 100;
-	font-size: 10vw;
-	line-height: 12vw;
+	font-size: 150px;
+	line-height: 40px;
 	font-variation-settings: 'wght' 400, 'wdth' 0;
 }
 
@@ -42,15 +42,15 @@ h1 .char {
 @keyframes breathe {
 	0% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 350px;
+		font-size: 150px;
 	}
 	60% {
 		font-variation-settings: 'wght' 0, 'wdth' 400;
-		font-size: 350px;
+		font-size: 150px;
 	}
 
 	100% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 350px;
+		font-size: 150px;
 	}
 }

@@ -1,44 +1,56 @@
+/*
+	Weight axis: 100 – 700
+	Width axis: 85 – 100
+*/
 @font-face {
-  font-family: "Ginto Variable";
-  src: url("ABCGravityVariable-Trial.ttf");
-    /* src:   url("Naailah_Khalifa_Variable-Regular.woff") format("woff-variations") */
-       /* url("Naailah_Khalifa_Variable-Regular.ttf") format("ttf-variations"); */
-       /* font-weight: 300 700; */
+	font-family: "IBM Plex Sans Roman";
+	/* src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/IBMPlexSansVar-Roman.ttf"); */
+	src: url("Naailah_Khalifa_Variable2df-Regular.ttf");
 }
 
-@keyframes ginto-animation {
-  from {
-    font-variation-settings: "wdth" 0;
-  }
-  to {
-    font-variation-settings: "wdth" 400;
-  }
-}
+/* * {
+	box-sizing: border-box;
+} */
 
+body {
+	font-family: "IBM Plex Sans Roman", Times;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+	background-color: #DCEDC8;
+}
 
 h1 {
-  font-size: 35vw;
-  font-family: "Ginto Variable";
-  position: fixed;
-  top: 150px;
-  left: 10%;
-  color: red;
-  /* transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center; */
-  /* color: rgb(239,22,101);
-  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
-  line-height: 2px; */
-  /* font-family: "Ginto", sans-serif; */
-  /* font-stretch: 60%; */
+	font-weight: 100;
+	font-size: 10vw;
+	line-height: 10vw;
+	font-variation-settings: 'wght' 400, 'wdth' 0;
+}
 
- transition: font-variation-settings 5s ease;
- animation-name: ginto-animation;
- animation-duration: 2s;
- animation-direction: alternate;
- animation-iteration-count: infinite;
- animation-timing-function: ease-in-out;
+h1 .char {
+	--delay: calc((var(--char-index) + 1) * 1800ms);
+	animation: breathe 5000ms infinite both;
+	animation-delay: var(--delay);
+}
+
+/* h1:hover span {
+	animation-play-state: paused;
+} */
+
+@keyframes breathe {
+	0% {
+		font-variation-settings: 'wght' 100, 'wdth' 0;
+		font-size: 20vw;
+	}
+	60% {
+		font-variation-settings: 'wght' 400, 'wdth' 10;
+		font-size: 22vw;
+	}
+
+	100% {
+		font-variation-settings: 'wght' 100, 'wdth' 0;
+		font-size: 20vw;
+	}
 }

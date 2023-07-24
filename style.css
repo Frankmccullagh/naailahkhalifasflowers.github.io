@@ -20,7 +20,7 @@ header {
 	text-align: center;
 	min-height: 80vh;
 	background-color: #DCEDC8;
-	position: fixed;
+	/* position: fixed; */
 }
 
 h1 {

@@ -24,15 +24,15 @@ body {
 	  transform: translate(-50%, -50%);
 		left: 50%;
 		width: 100%;
-		top: 50%;
+		top: 500px;
 		color: red;
 
 }
 
 h1 {
-	font-weight: 100;
-	font-size: 10vw;
-	line-height: 8vw;
+	/* font-weight: 100; */
+	/* font-size: 10vw; */
+	line-height: 11vw;
 	font-variation-settings: 'wght' 400, 'wdth' 0;
 }
 
@@ -49,15 +49,15 @@ h1 .char {
 @keyframes breathe {
 	0% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 300px;
+		font-size: 22vw;
 	}
 	60% {
 		font-variation-settings: 'wght' 0, 'wdth' 400;
-		font-size: 300px;
+		font-size: 22vw;
 	}
 
 	100% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 300px;
+		font-size: 22vw;
 	}
 }

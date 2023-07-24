@@ -12,14 +12,22 @@
 	box-sizing: border-box;
 } */
 
-body {
+html, body {
+	margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+header {
 	font-family: "IBM Plex Sans Roman", Times;
 	/* display: flex; */
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	min-height: 100vh;
-	background-color: #DCEDC8;
+	/* background-color: #DCEDC8; */
 	position: fixed;
 	left: 50%;
 	transform: translate(-50%, 0);

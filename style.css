@@ -12,19 +12,16 @@
 	box-sizing: border-box;
 } */
 
-/* body {
-	font-family: "IBM Plex Sans Roman", Times;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+body {
+
 	min-height: 100vh;
 	background-color: #DCEDC8;
-} */
+}
 
 header {
-  position: fixed;
-  top: 260px;
+	/* display: flex; */
+	position: fixed;
+  top: 360px;
   left: 50%;
   transform: translate(-50%, -50%);
 	/* display: flex; */
@@ -54,15 +51,15 @@ h1 .char {
 @keyframes breathe {
 	0% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 21vw;
+		font-size: 300px;
 	}
 	60% {
 		font-variation-settings: 'wght' 0, 'wdth' 400;
-		font-size: 21vw;
+		font-size: 300px;
 	}
 
 	100% {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
-		font-size: 21vw;
+		font-size: 300px;
 	}
 }

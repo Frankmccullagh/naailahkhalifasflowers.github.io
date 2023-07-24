@@ -32,7 +32,7 @@ header {
 	left: 50%;
 	transform: translate(-50%, 0);
 	width: 100%;
-	color: red;
+	color: rgb(239, 252, 101);
 	top: 100px;
 
 
@@ -87,7 +87,7 @@ input.one {
       top: 55%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 55px;
+      font-size: 50px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -106,7 +106,7 @@ input.two {
       top: 63%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 55px;
+      font-size: 50px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -125,7 +125,7 @@ input.three {
       top: 71%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 55px;
+      font-size: 50px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -148,7 +148,7 @@ footer {
   /* flex-wrap: wrap; */
   align-items: center;
   line-height: 1px;
-  bottom: 10%;
+  bottom: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

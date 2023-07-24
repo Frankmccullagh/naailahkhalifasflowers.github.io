@@ -21,6 +21,11 @@ body {
 	min-height: 100vh;
 	background-color: #DCEDC8;
 	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+
+
 
 }
 

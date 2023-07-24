@@ -48,7 +48,7 @@ h1 {
 
 h1 .char {
 	--delay: calc((var(--char-index) + 1) * 100ms);
-	animation: breathe 7000ms infinite both;
+	animation: breathe 8000ms infinite both;
 	animation-delay: var(--delay);
 }
 

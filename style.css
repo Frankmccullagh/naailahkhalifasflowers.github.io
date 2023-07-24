@@ -48,7 +48,7 @@ h1 {
 
 h1 .char {
 	--delay: calc((var(--char-index) + 1) * 50ms);
-	animation: breathe 5000ms infinite both;
+	animation: breathe 7000ms infinite both;
 	animation-delay: var(--delay);
 }
 
@@ -61,7 +61,7 @@ h1 .char {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
 		font-size: 120px;
 	}
-	60% {
+	25% {
 		font-variation-settings: 'wght' 0, 'wdth' 400;
 		font-size: 120px;
 	}

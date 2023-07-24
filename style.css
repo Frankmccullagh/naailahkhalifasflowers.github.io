@@ -71,3 +71,84 @@ h1 .char {
 		font-size: 120px;
 	}
 }
+
+@font-face {
+  font-family: flower;
+  src: url(VanDijMTIta-Italics-Regular.otf);
+}
+
+input.one {
+      font-family: "flower";
+      background: none;
+      color: rgb(239, 252, 101);
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+}
+
+input.two {
+      font-family: "flower";
+      background: none;
+      color: rgb(239, 252, 101);
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 63%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+}
+
+input.three {
+      font-family: "flower";
+      background: none;
+      color: rgb(239, 252, 101);
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 71%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+      /* width: 200px; */
+}
+
+
+footer {
+  color: rgb(239, 252, 101);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  font-family: "flower";
+  font-size: 20px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+  line-height: 1px;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

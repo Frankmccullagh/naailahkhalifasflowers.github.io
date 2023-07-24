@@ -12,20 +12,31 @@
 	box-sizing: border-box;
 } */
 
-body {
+/* body {
 	font-family: "IBM Plex Sans Roman", Times;
-	/* display: flex; */
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	min-height: 100vh;
 	background-color: #DCEDC8;
+} */
+
+header {
+  position: fixed;
+  top: 260px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-width: 100%;
 }
 
 h1 {
-	font-weight: 100;
-	font-size: 10vw;
-	line-height: 8vw;
+	font-family: "IBM Plex Sans Roman", Times;
+	color: rgb(239, 252, 101);
+	line-height: 60px;
 	font-variation-settings: 'wght' 400, 'wdth' 0;
 }
 
@@ -53,4 +64,85 @@ h1 .char {
 		font-variation-settings: 'wght' 400, 'wdth' 0;
 		font-size: 300px;
 	}
+}
+
+@font-face {
+  font-family: flower;
+  src: url(VanDijMTIta-Italics-Regular.otf);
+}
+
+input.one {
+      font-family: "flower";
+      background: none;
+      color: rgb(239, 252, 101);
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+}
+
+input.two {
+      font-family: "flower";
+      background: none;
+      color: rgb(239, 252, 101);
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 63%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+}
+
+input.three {
+      font-family: "flower";
+      background: none;
+      color: rgb(239, 252, 101);
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+      border: none;
+      position: fixed;
+      top: 71%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 55px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+      /* width: 200px; */
+}
+
+
+footer {
+  color: rgb(239, 252, 101);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  font-family: "flower";
+  font-size: 20px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+  line-height: 1px;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

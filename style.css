@@ -20,12 +20,12 @@ body {
 	text-align: center;
 	min-height: 100vh;
 	background-color: #DCEDC8;
-	position: fixed;
+	/* position: fixed; */
 	  /* transform: translate(-50%, -50%); */
 		/* left: 50%; */
 		width: 100%;
-		top: 100px;
-		color: red;
+		top: 200px;
+		color: blue;
 
 }
 

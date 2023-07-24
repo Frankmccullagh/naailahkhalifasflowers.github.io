@@ -18,18 +18,15 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	min-height: 80vh;
+	min-height: 100vh;
 	background-color: #DCEDC8;
-
-	/* position: fixed; */
 }
 
 h1 {
-	/* font-weight: 100; */
+	font-weight: 100;
 	font-size: 10vw;
 	line-height: 8vw;
 	font-variation-settings: 'wght' 400, 'wdth' 0;
-	color: red;
 }
 
 h1 .char {

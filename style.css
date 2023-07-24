@@ -12,7 +12,7 @@
 	box-sizing: border-box;
 } */
 
-header {
+body {
 	font-family: "IBM Plex Sans Roman", Times;
 	/* display: flex; */
 	align-items: center;
